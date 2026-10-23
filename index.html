@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F7F3EB">
+    <meta name="description" content="Discover Herbs & Harmony, where the wisdom of nature meets modern self-care.">
+    <title>Herbs & Harmony | Wellness Brand</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <!-- Hero Video Section -->
+    <header class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="images/Hero-Video.mp4" type="video/mp4">
+        </video>
+
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="Brand Logo" class="logo-img">
+                </a>
+                
+                <ul class="nav-links" id="primaryNav">
+                    <li><a href="#philosophy">Philosophy</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Experts</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                
+                <a href="#book" class="book-now">Book Now</a>
+                <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-controls="primaryNav" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        
+        <!-- Philosophy Section -->
+        <section class="stack-section" id="philosophy" style="z-index: 10;">
+            <div class="stack-card philosophy-card">
+                <div class="philosophy__content">
+                    <p class="eyebrow reveal" style="--delay: 0ms"><span>Welcome to Herbs &amp; Harmony</span></p>
+                    <h1 class="philosophy__title reveal" id="philosophy-heading" style="--delay: 100ms">
+                        <span class="title-line">Where the wisdom</span>
+                        <span class="title-line">of nature meets</span>
+                        <span class="title-line">modern <span class="title-accent">self-care.</span></span>
+                    </h1>
+                    <div class="philosophy__copy reveal" style="--delay: 200ms">
+                        <p>Herbs & Harmony is a modern wellness destination that brings together the timeless wisdom of Ayurveda and the refinement of contemporary cosmetology. Rooted in our philosophy of "Beauty, Balance & Beyond," our brand identity reflects a harmonious blend of natural healing, holistic well-being, and premium self-care. We offer a visual and sensory experience that is elegant, calming, and timeless.</p>
+                    </div>
+                    <a class="philosophy__button reveal" href="our-philosophy.html" style="--delay: 300ms">
+                        <span>Explore Our Philosophy</span>
+                        <span class="button__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </a>
+                </div>
+                <div class="philosophy__media" data-reveal-image>
+                    <img src="images/philosophy.png" alt="Sunlit botanical herbs" fetchpriority="high" width="2000" height="1400">
+                </div>
+                <span class="decorative-orbit decorative-orbit--top"></span>
+                <span class="decorative-orbit decorative-orbit--bottom"></span>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="stack-section" id="gallery" style="z-index: 20;">
+            <div class="stack-card gallery-card">
+                <div class="gallery-content reveal" style="--delay: 0ms">
+                    <h2 class="gallery-title" id="gallery-heading">Moments of Harmony</h2>
+                    <p class="gallery-subtitle">A glimpse into our sanctuary.</p>
+                </div>
+                <div class="gallery-slider" data-reveal-image>
+                    <div class="gallery-images">
+                        <img src="images/gallery1.jpg" alt="Herbs and Harmony Gallery 1" class="active">
+                        <img src="images/gallery2.jpg" alt="Herbs and Harmony Gallery 2">
+                        <img src="images/gallery3.jpg" alt="Herbs and Harmony Gallery 3">
+                        <img src="images/gallery4.jpg" alt="Herbs and Harmony Gallery 4">
+                        <img src="images/gallery5.jpg" alt="Herbs and Harmony Gallery 5">
+                        <img src="images/gallery6.jpg" alt="Herbs and Harmony Gallery 6">
+                        <img src="images/gallery7.jpg" alt="Herbs and Harmony Gallery 7">
+                        <img src="images/gallery8.jpg" alt="Herbs and Harmony Gallery 8">
+                    </div>
+                    <button type="button" class="gallery-btn prev" aria-label="Previous gallery image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    </button>       
+                    <button type="button" class="gallery-btn next" aria-label="Next gallery image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+                <div class="gallery-action reveal" style="--delay: 200ms">
+                    <a href="gallery.html" class="gallery-cta">
+                        <span>View Full Gallery</span>
+                        <span class="button__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></svg></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="stack-section" id="services" style="z-index: 30;">
+            <div class="stack-card services-card">
+                <header class="services-header">
+                    <div class="eyebrow-center reveal" style="--delay: 0ms">
+                        <span class="section-eyebrow__line"></span><span>Our Services</span><span class="section-eyebrow__line"></span>
+                    </div>
+                    <h2 class="services-title reveal" style="--delay: 100ms">A Journey of Holistic Transformation</h2>
+                </header>
+                <div class="services-grid">
+                    <article class="service-card reveal" style="--delay: 300ms">
+                        <div class="service-card__media">
+                            <img src="images/service1.jpg" alt="Ayurvedic" loading="lazy" />
+                            <svg class="service-card__curve" viewBox="0 0 500 220" preserveAspectRatio="none"><path d="M0 0 C35 0 53 42 93 78 C151 129 228 163 308 179 C377 194 441 190 500 190 L500 220 L0 220 Z" /></svg>
+                            <div class="service-card__icon"><svg viewBox="0 0 64 64" fill="none"><path d="M11 45C12 29 24 15 47 10C47 32 36 49 20 51" /><path d="M12 44C25 41 34 32 44 17" /><path d="M17 54C17 43 12 36 5 31C5 43 9 50 17 54Z" /><path d="M18 54L28 59" /></svg></div>
+                        </div>
+                        <div class="service-card__content">
+                            <h3>Authentic Ayurvedic<br />Therapies</h3>
+                            <p>Rejuvenate your body and mind with traditional therapies designed to restore balance and vitality.</p>
+                            <a class="service-card__link" href="services.html#ayurveda"><span>DISCOVER AYURVEDA</span><span class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                    <article class="service-card reveal" style="--delay: 400ms">
+                        <div class="service-card__media">
+                            <img src="images/service2.jpg" alt="Skin" loading="lazy" />
+                            <svg class="service-card__curve" viewBox="0 0 500 220" preserveAspectRatio="none"><path d="M0 0 C35 0 53 42 93 78 C151 129 228 163 308 179 C377 194 441 190 500 190 L500 220 L0 220 Z" /></svg>
+                            <div class="service-card__icon"><svg viewBox="0 0 64 64" fill="none"><path d="M32 49C20 39 20 25 32 13C44 25 44 39 32 49Z" /><path d="M31 49C16 47 8 37 8 27C20 28 29 35 31 49Z" /><path d="M33 49C48 47 56 37 56 27C44 28 35 35 33 49Z" /><path d="M7 50C20 56 44 56 57 50" /><path d="M17 43L12 39M47 43L52 39" /></svg></div>
+                        </div>
+                        <div class="service-card__content">
+                            <h3>Advanced Skin &amp;<br />Beauty Rituals</h3>
+                            <p>Experience a fusion of medical innovation and natural botanicals for immediate, radiant transformations.</p>
+                            <a class="service-card__link" href="services.html#cosmetology"><span>EXPLORE COSMETOLOGY</span><span class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                    <article class="service-card reveal" style="--delay: 500ms">
+                        <div class="service-card__media">
+                            <img src="images/service3.jpg" alt="Hair" loading="lazy" />
+                            <svg class="service-card__curve" viewBox="0 0 500 220" preserveAspectRatio="none"><path d="M0 0 C35 0 53 42 93 78 C151 129 228 163 308 179 C377 194 441 190 500 190 L500 220 L0 220 Z" /></svg>
+                            <div class="service-card__icon"><svg viewBox="0 0 64 64" fill="none"><path d="M35 8C25 18 30 26 22 34C16 40 19 49 27 52C36 56 45 49 43 40" /><path d="M35 8C37 21 47 25 46 37C45 43 41 47 36 49" /><path d="M44 48C48 42 55 41 60 44C57 51 52 54 44 53" /><path d="M44 52L53 45" /></svg></div>
+                        </div>
+                        <div class="service-card__content">
+                            <h3>Therapeutic Hair &amp;<br />Scalp Care</h3>
+                            <p>Nourish your hair from the root with our specialized therapies that promote growth, health, and shine.</p>
+                            <a class="service-card__link" href="services.html#hair-scalp"><span>VIEW HAIR THERAPIES</span><span class="service-card__arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section class="stack-section" id="doctors" style="z-index: 40;">
+            <div class="stack-card doctors-card">
+                <header class="doctors-header">
+                    <div class="eyebrow-center reveal" style="--delay: 0ms">
+                        <span class="section-eyebrow__line"></span><span>MEET OUR EXPERTS</span><span class="section-eyebrow__line"></span>
+                    </div>
+                    <h2 class="doctors-title reveal" style="--delay: 100ms">Care Guided by Expertise</h2>
+                </header>
+                <div class="doctors-grid">
+                    <article class="doctor-card reveal" style="--delay: 300ms">
+                        <div class="doctor-card__media"><img src="images/doctor1.jpg" alt="Dr. Arjun Menon" loading="lazy"></div>
+                        <div class="doctor-card__content">
+                            <h3 class="doctor-name">Dr. Arjun Menon</h3><p class="doctor-specialty">Ayurveda &amp; Panchakarma</p><p class="doctor-desc">Traditional care, thoughtfully practised.</p>
+                            <a class="doctor-link" href="doctor1.html"><span>VIEW PROFILE</span><span class="doctor-link-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                    <article class="doctor-card reveal" style="--delay: 400ms">
+                        <div class="doctor-card__media"><img src="images/doctor2.jpg" alt="Dr. Nisha Varma" loading="lazy"></div>
+                        <div class="doctor-card__content">
+                            <h3 class="doctor-name">Dr. Nisha Varma</h3><p class="doctor-specialty">Cosmetology &amp; Skin</p><p class="doctor-desc">Radiant skin through science and nature.</p>
+                            <a class="doctor-link" href="doctor2.html"><span>VIEW PROFILE</span><span class="doctor-link-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                    <article class="doctor-card reveal" style="--delay: 500ms">
+                        <div class="doctor-card__media"><img src="images/doctor3.jpg" alt="Dr. Anil Kumar" loading="lazy"></div>
+                        <div class="doctor-card__content">
+                            <h3 class="doctor-name">Dr. Anil Kumar</h3><p class="doctor-specialty">Hair &amp; Scalp Care</p><p class="doctor-desc">Healthier, stronger hair for a more confident you.</p>
+                            <a class="doctor-link" href="doctor3.html"><span>VIEW PROFILE</span><span class="doctor-link-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                    <article class="doctor-card reveal" style="--delay: 600ms">
+                        <div class="doctor-card__media"><img src="images/doctor4.jpg" alt="Dr. Meera Nair" loading="lazy"></div>
+                        <div class="doctor-card__content">
+                            <h3 class="doctor-name">Dr. Meera Nair</h3><p class="doctor-specialty">Holistic Wellness</p><p class="doctor-desc">A balanced life through natural healing.</p>
+                            <a class="doctor-link" href="doctor4.html"><span>VIEW PROFILE</span><span class="doctor-link-arrow"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12H19M12 5L19 12L12 19" /></svg></span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="stack-section" id="contact" style="z-index: 50;">
+            <div class="stack-card contact-card">
+                <header class="contact-header">
+                    <div class="eyebrow-center reveal" style="--delay: 0ms">
+                        <span class="section-eyebrow__line"></span><span>GET IN TOUCH</span><span class="section-eyebrow__line"></span>
+                    </div>
+                    <h2 class="contact-title reveal" style="--delay: 100ms">Connect With Us</h2>
+                    <p class="contact-subtitle reveal" style="--delay: 200ms">We're here to guide you on your journey to wellness.</p>
+                </header>
+
+                <div class="contact-grid">
+                    <div class="contact-info-container reveal" style="--delay: 300ms">
+                        <!-- Decorative leaf intentionally omitted to keep this contact panel minimal. -->
+                        <div class="info-content">
+                            <h3>Visit Our Sanctuary</h3>
+                            <hr class="info-divider">
+                            <div class="info-item">
+                                <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                                <div class="info-text"><span class="info-label">ADDRESS</span><p>Herbs & Harmony, Polakulath Arcade, Chandapura, Bharatnagar, Chaithanya Nagar, Chanda Nagar, Kodungallur, Keralam 680664</p></div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                                <div class="info-text"><span class="info-label">PHONE</span>
+                                    <div class="phone-wrapper">
+                                   <p>+91 7994552659</p>
+                                   <div class="contact-action-buttons">
+                                        <a href="tel:+917994552659" class="call-us-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>CALL US</a>
+                                    <a
+    href="https://wa.me/917994552659"
+    class="whatsapp-btn"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contact us on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"
+         aria-hidden="true">
+        <path d="M20.52 3.48A11.82 11.82 0 0 0 12.05 0
+        C5.48 0 .13 5.35.13 11.92c0 2.1.55 4.15
+        1.6 5.96L0 24l6.28-1.65a11.9 11.9 0 0 0
+        5.77 1.47h.01c6.57 0 11.92-5.35
+        11.92-11.92a11.84 11.84 0 0 0-3.46-8.42ZM12.06
+        21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.73.98
+        .99-3.64-.24-.37a9.85 9.85 0 0 1-1.52-5.26
+        c0-5.46 4.45-9.91 9.91-9.91a9.83 9.83 0
+        0 1 7.01 2.9 9.83 9.83 0 0 1 2.9 7.01
+        c0 5.46-4.45 9.91-9.92 9.91Zm5.44-7.42
+        c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15
+        -.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07
+        -.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77
+        -1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35
+        .45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53
+        -.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51
+        h-.57c-.2 0-.52.07-.8.38-.27.3-1.04 1.02-1.04
+        2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21
+        5.08 4.5.71.31 1.26.5 1.69.64.71.23 1.36.2
+        1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25
+        -1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/>
+    </svg>
+    WHATSAPP US
+</a>
+</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="contact-map-wrapper reveal" style="--delay: 400ms">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12249.366185798799!2d76.19651018879188!3d10.234050759130767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081d9dd7c299cd%3A0x64562e79bd917083!2sHerbs%26Harmony!5e1!3m2!1sen!2sin!4v1792751894188!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo-link"><img src="images/footer-logo.png" alt="Herbs & Harmony Logo" class="footer-logo-img"></a>
+                    <p class="footer-brand-tagline">NATURAL HEALING • MODERN CARE</p>
+                    <p class="footer-desc">A wellness destination that brings together the enduring traditions of Ayurveda and contemporary cosmetology in one calm, considered experience.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li><li><a href="#">About Us</a></li><li><a href="#services">Our Services</a></li><li><a href="#doctors">Our Doctors</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Our Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Ayurveda & Wellness</a></li><li><a href="#">Skin & Beauty</a></li><li><a href="#">Hair & Scalp Care</a></li><li><a href="#">Treatments</a></li><li><a href="#">Wellness Packages</a></li><li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQs</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms & Conditions</a></li><li><a href="#">Cancellation Policy</a></li><li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h4 class="footer-heading">Get in Touch</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <div class="footer-icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                            <div class="footer-contact-text"><span class="footer-label">ADDRESS</span><p>Herbs & Harmony, Polakulath Arcade, Chandapura, Bharatnagar, Chaithanya Nagar, Chanda Nagar, Kodungallur, Keralam 680664</p></div>
+                        </li>
+                        <li>
+                            <div class="footer-icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                            <div class="footer-contact-text"><span class="footer-label">PHONE</span><p><a href="tel:+917994552659">079945 52659</a></p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Herbs & Harmony. All rights reserved.</p>
+                <p class="footer-center-text">HEAL • RESTORE • REJUVENATE</p>
+                <p class="footer-tagline">Designed with <span class="heart">&hearts;</span> for a healthier, happier you.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
